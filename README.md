@@ -1,3 +1,5 @@
+# npn install && npm start
+
 ##API to hit
 
 `https://jsonmock.hackerrank.com/api/movies?Year=<Year>`
