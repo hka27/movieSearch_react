@@ -46,18 +46,17 @@ export default function MovieList() {
         </button>
       </section>
 
-      <ul className='mt-50 styled' data-testid='movieList'>
-        {/* <li className='slide-up-fade-in py-10'></li> */}
-        {data.length !== 0
-          ? data.map((el) => (
-              <li className='slide-up-fade-in py-10' key={el.key}>
-                {JSON.stringify(el.val)}
-              </li>
-            ))
-          : null}
-      </ul>
-
-      <div className='mt-50 slide-up-fade-in' data-testid='no-result'></div>
+      {data.length !== 0 ? (
+        <ul className='mt-50 styled' data-testid='movieList'>
+          {data.map((el) => (
+            <li className='slide-up-fade-in py-10' key={el.key}>
+              {JSON.stringify(el.val)}
+            </li>
+          ))}
+        </ul>
+      ) : (
+        <div className='mt-50 slide-up-fade-in' data-testid='no-result'></div>
+      )}
     </div>
   );
 }
