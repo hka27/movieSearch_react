@@ -1,0 +1,70 @@
+<testsuites name="jest tests" tests="4" failures="4" time="15.652">
+  <testsuite name="undefined" errors="0" failures="4" skipped="0" timestamp="2020-06-09T08:26:16" time="15.652" tests="4">
+    <testcase classname=" initial UI is rendered as expected" name=" initial UI is rendered as expected" time="0.056">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  null
+Received:
+  &lt;div class=&quot;mt-50 slide-up-fade-in&quot; data-testid=&quot;no-result&quot; /&gt;
+
+Difference:
+
+  Comparing two different types of values. Expected null but received object.
+    at Object.&lt;anonymous&gt; (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/src/App.test.js:20:38)
+    at Object.asyncFn (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at /home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/jest-jasmine2/build/queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at /home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/p-map/index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and no results found" name=" search is made on by clicking on search button and no results found" time="4.731">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  No Results Found
+Received:
+
+    at /home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/src/App.test.js:39:38
+    at runExpectation (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/wait-for-expect/lib/index.js:49:25)
+    at Timeout.callback [as _onTimeout] (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/jsdom/lib/jsdom/browser/Window.js:523:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 1" name=" search is made on by clicking on search button and result found - test 1" time="4.732">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  null
+Received:
+  &lt;div class=&quot;mt-50 slide-up-fade-in&quot; data-testid=&quot;no-result&quot; /&gt;
+
+Difference:
+
+  Comparing two different types of values. Expected null but received object.
+    at /home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/src/App.test.js:60:40
+    at runExpectation (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/wait-for-expect/lib/index.js:49:25)
+    at Timeout.callback [as _onTimeout] (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/jsdom/lib/jsdom/browser/Window.js:523:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+    <testcase classname=" search is made on by clicking on search button and result found - test 2" name=" search is made on by clicking on search button and result found - test 2" time="4.791">
+      <failure>Error: expect(received).toBe(expected)
+
+Expected value to be (using ===):
+  null
+Received:
+  &lt;div class=&quot;mt-50 slide-up-fade-in&quot; data-testid=&quot;no-result&quot; /&gt;
+
+Difference:
+
+  Comparing two different types of values. Expected null but received object.
+    at /home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/src/App.test.js:84:40
+    at runExpectation (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/wait-for-expect/lib/index.js:49:25)
+    at Timeout.callback [as _onTimeout] (/home/hka/Desktop/e985f254-27c3-4fbb-b4d1-f7e6fadc1376/node_modules/jsdom/lib/jsdom/browser/Window.js:523:19)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
